@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Contenedor */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabla */
+table.dataTable {
+    border-collapse: collapse !important;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Encabezado */
+table.dataTable thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table.dataTable thead th {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Filas */
+table.dataTable tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+table.dataTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.dataTable tbody tr:hover {
+    background-color: #e8f5e9;
+}
+
+/* Celdas */
+table.dataTable td {
+    padding: 10px;
+}
